@@ -6,6 +6,7 @@ export const PortfolioAppBar = (props: AppBarProps & { pageTitle: string }) => {
     <AppBar
       position='static'
       variant='outlined'
+      elevation={0}
       sx={{backgroundColor: 'white'}}
     >
       <Toolbar>
