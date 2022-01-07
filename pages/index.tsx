@@ -1,6 +1,6 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
-import {Container, Stack, Typography} from '@mui/material';
+import {Stack, Typography} from '@mui/material';
 
 const Home: NextPage = () => {
   return (
