@@ -1,13 +1,15 @@
 import Image from 'next/image';
+import {Box} from '@mui/material';
 
 export const PortfolioBackgroundImage = () => {
   return (
-    <Image
-      width={2000}
-      height={1000}
-      src='/sunny.jpg'
-      objectFit='cover'
-      priority={true}
-    />
+    <Box sx={{ position: 'relative', width: 'auto', height: 1000}}>
+      <Image
+        layout='fill'
+        src='/sunny.jpg'
+        objectFit='cover'
+        priority={true}
+      />
+    </Box>
   )
 }
