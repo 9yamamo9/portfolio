@@ -2,7 +2,7 @@ import {Stack, Typography} from '@mui/material';
 
 export const PortfolioIntroduction = () => {
   return (
-    <Stack direction='column' sx={{maxWidth: 480}}>
+    <Stack direction='column' sx={{maxWidth: 560}}>
       <Typography variant='h3'>
         Yuta Yamamori
       </Typography>
