@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {Box, Stack} from '@mui/material'
+import {Box, Divider, Stack} from '@mui/material'
 import {PortfolioAppBar} from '../components/portfolio-app-bar'
 import {PortfolioAvatar} from '../components/portfolio-avatar';
 import {PortfolioIntroduction} from '../components/portfolio-introduction';
@@ -21,6 +21,7 @@ const Home = () => {
           <PortfolioIntroduction/>
         </Stack>
       </Stack>
+      <Divider></Divider>
     </Box>
   )
 }
