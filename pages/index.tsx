@@ -21,7 +21,7 @@ const Home = () => {
           <PortfolioIntroduction/>
         </Stack>
       </Stack>
-      <Divider></Divider>
+      <Divider variant='middle'></Divider>
     </Box>
   )
 }
